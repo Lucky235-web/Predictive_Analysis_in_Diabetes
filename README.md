@@ -10,6 +10,7 @@ This repository contains a machine learning project that predicts the onset of d
 
 ​2) Handling Imbalanced Data :
 ​The dataset was found to be imbalanced, with a significantly larger number of non-diabetic cases than diabetic ones. To prevent the model from becoming biased towards the majority class, we applied SMOTE (Synthetic Minority Over-sampling Technique). SMOTE generates synthetic data points for the minority class, effectively balancing the dataset and improving the model's ability to correctly identify diabetes cases.
+
 ​
 3) Model Training and Evaluation :
 ​The prepared data was split into training and testing sets. A Logistic Regression model was trained on the training set and evaluated on the test set. The model's performance was measured using a confusion matrix  and key metrics:
