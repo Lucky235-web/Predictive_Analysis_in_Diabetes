@@ -14,10 +14,10 @@ This repository contains a machine learning project that predicts the onset of d
 ​
 3) Model Training and Evaluation :
 ​The prepared data was split into training and testing sets. A Logistic Regression model was trained on the training set and evaluated on the test set. The model's performance was measured using a confusion matrix  and key metrics:
-​- Accuracy: The overall proportion of correct predictions.
-​- Precision: The ratio of true positive predictions to all positive predictions.
-​- Recall: The ratio of true positive predictions to all actual positive cases. Recall is particularly important in medical contexts, as it measures the model's ability to find all positive instances.
-​- F1-Score: The harmonic mean of precision and recall, providing a balanced measure of the model's performance.
+​(i)   Accuracy: The overall proportion of correct predictions.
+​(ii)  Precision: The ratio of true positive predictions to all positive predictions.
+​(iii) Recall: The ratio of true positive predictions to all actual positive cases. Recall is particularly important in medical contexts, as it measures the model's ability to find all positive instances.
+​(iv) F1-Score: The harmonic mean of precision and recall, providing a balanced measure of the model's performance.
 
 ​4) Saving the Model :
 ​The final, trained model was saved using the pickle library. This allows the model to be easily loaded and used for future predictions without needing to be retrained, which is also a crucial step for deploying the model.
